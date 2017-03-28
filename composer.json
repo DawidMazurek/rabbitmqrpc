@@ -1,0 +1,21 @@
+{
+    "name": "dawidmazurek/rabbitmqrpc",
+    "type": "library",
+    "require": {
+        "php-amqplib/php-amqplib": "^2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {"dawidmazurek\\rabbitmqrpc\\": "src/"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dawid Mazurek",
+            "email": "dawid@dawidmazurek.pl"
+        }
+    ],
+    "minimum-stability": "stable"
+}
